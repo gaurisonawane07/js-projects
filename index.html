@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Switcher</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffffff;
+            transition: background-color 0.5s ease;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 10px;
+        }
+
+        .color-button {
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .color-button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Color Switcher</h1>
+        <div class="button-container">
+            <button class="color-button" data-color="blue">Blue</button>
+            <button class="color-button" data-color="red">Red</button>
+            <button class="color-button" data-color="green">Green</button>
+            <button class="color-button" data-color="yellow">Yellow</button>
+        </div>
+    </div>
+    <script src="chaiaurcode.js"></script>
+</body>
+
+</html>
