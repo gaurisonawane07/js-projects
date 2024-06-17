@@ -1,8 +1,5 @@
-body {
-    background-color: aquamarine;
-    text-decoration-style: none;
-}
-button:hover {
-    color: black;
-    background-color: rgb(2, 11, 19);
+body{
+    background-color: #414141;
+    color: antiquewhite;
+    text-size-adjust: 20px 10px;
 }
